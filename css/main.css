@@ -1,0 +1,100 @@
+#container {
+  margin: 0px auto;
+  margin-top: 45px; }
+  #container .post {
+    padding: 0px; }
+    #container .post div {
+      vertical-align: top;
+      display: inline-block; }
+    #container .post .left {
+      width: 20%;
+      text-align: right;
+      margin-top: 45px;
+      padding: 0px; }
+      #container .post .left p {
+        padding: 0px;
+        margin-bottom: 3px;
+        color: lightgrey; }
+      #container .post .left h2 {
+        padding: 0px;
+        margin-bottom: 0px;
+        color: #73beee; }
+    #container .post .middle {
+      width: 10%;
+      padding-left: 35px; }
+      #container .post .middle .circle {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: #73beee;
+        margin-bottom: 0px;
+        padding: 0px; }
+        #container .post .middle .circle .innerCircle {
+          width: 40px;
+          height: 40px;
+          border-radius: 50px;
+          background-color: #4093cb;
+          position: absolute;
+          margin-top: 5px;
+          margin-left: 5px;
+          text-align: center; }
+          #container .post .middle .circle .innerCircle p {
+            color: white;
+            font-size: 28px; }
+      #container .post .middle .line {
+        width: 10px;
+        height: 200px;
+        background-color: #73beee;
+        display: block;
+        margin: 0px 20px;
+        padding: 0px; }
+    #container .post .right {
+      margin-top: 5px;
+      background-color: #73beee;
+      border-radius: 5px;
+      width: 55%;
+      height: 100%;
+      position: relative; }
+      #container .post .right .arrow {
+        width: 20px;
+        height: 20px;
+        transform: rotate(45deg);
+        background-color: #73beee;
+        position: absolute;
+        left: -4px;
+        top: 8px;
+        z-index: 999; }
+      #container .post .right .content {
+        padding: 20px 50px;
+        color: white; }
+        #container .post .right .content h3 {
+          border-bottom: 2px solid white; }
+  #container .second .right {
+    background-color: #4093cb; }
+    #container .second .right .arrow {
+      background-color: #4093cb; }
+  #container .second .middle .circle .innerCircle p {
+    margin-top: 4px;
+    font-size: 24px; }
+  #container .second .left h2 {
+    color: #4093cb; }
+
+@media screen and (max-width: 768px) {
+  #container .post .left {
+    width: 5%; }
+  #container .post .middle {
+    width: 15%; }
+  #container .post .right {
+    width: 75%; } }
+
+@media screen and (max-width: 425px) {
+  #container .post .left {
+    display: block; }
+    #container .post .left p {
+      display: inline; }
+    #container .post .left h2 {
+      display: inline; }
+  #container .post .middle {
+    display: none; }
+  #container .post .right {
+    display: block; } }
